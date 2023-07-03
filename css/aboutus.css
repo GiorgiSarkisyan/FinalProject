@@ -1,0 +1,136 @@
+/* GLOBAL STYLES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+.wrapper{
+    background-color: #525252;
+    position: relative;
+}
+.middle-content{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+/* GLOBAL HEADER */
+.hover-logo:hover{
+    display: block;
+}
+.main-page-header{
+    background-color: #212020;
+    position: fixed;
+    width:100%;
+    height: 104px;
+    top: 0px;
+    z-index: 3;
+}
+.header-logo{
+    height: 104px;
+    display: flex;
+    justify-content: center;
+}
+.header-content{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 220px auto;
+    height: 104px;
+    gap: 235px  ;
+}
+.header-navigation ul{
+    display: grid;
+    grid-template-columns: repeat(5, 165px);
+    grid-template-rows: 104px;
+}
+.header-list{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 23px;
+    color: white;
+    transition:all 0.2s ease-in, color 0.5s linear;
+}
+.header-list:hover{
+    background-color: #525252;
+    cursor: pointer;
+}
+.header-list.active {
+    transition: none;
+    background-color: white;
+    color: black;
+  }
+.header-logo-link{
+    background: url(../MainPageImages/geowrapblack.png);
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition:all 0.2s ease-in, color 0.5s linear;
+}
+.header-logo{
+    width: 220px;
+    height: 104px;
+}
+.header-logo-link:hover{
+    background:url(../MainPageImages/GeoWrapLogo2.jpg);
+    background-size: cover;
+}
+.header-list a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+/* AboutUs Section */
+.aboutus-wrappers-section-content{
+    display: grid;
+    grid-template-rows: 150px auto;
+}
+.aboutus-wrappers-section-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutus-wrappers-section-title h2{
+    color: white;
+    font-family: 'PoppinsBold';
+    font-size: 50px;
+}
+.aboutus-wrappers-section{
+    margin-top: 104px;
+}
+.aboutus-team-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    gap: 30px;
+    justify-content: center;
+}
+.team-card{
+    display: grid;
+    grid-template-rows:150px 50px 75px ;
+    font-family: 'PoppinsRegular';
+    background: red;
+}
+.team-card-img img{
+    width: 100%;
+}
+.team-card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team-card-teamposition{
+    display: flex;
+    justify-content: center;
+}
