@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+.wrapper{
+    background-color: #525252;
+    position: relative;
+}
+/* GLOBAL HEADER */
+.hover-logo:hover{
+    display: block;
+}
+.main-page-header{
+    background-color: #212020;
+    position: fixed;
+    width:100%;
+    height: 104px;
+    top: 0px;
+    z-index: 3;
+}
+.header-logo{
+    height: 104px;
+    display: flex;
+    justify-content: center;
+}
+.header-content{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 220px auto;
+    height: 104px;
+    gap: 235px  ;
+}
+.header-navigation ul{
+    display: grid;
+    grid-template-columns: repeat(5, 165px);
+    grid-template-rows: 104px;
+}
+.header-list{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 23px;
+    color: white;
+    transition:all 0.2s ease-in, color 0.5s linear;
+}
+.header-list:hover{
+    background-color: #525252;
+    cursor: pointer;
+}
+.header-list.active {
+    transition: none;
+    background-color: white;
+    color: black;
+  }
+.header-logo-link{
+    background: url(../MainPageImages/geowrapblack.png);
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition:all 0.2s ease-in, color 0.5s linear;
+}
+.header-logo{
+    width: 220px;
+    height: 104px;
+}
+.header-logo-link:hover{
+    background:url(../MainPageImages/GeoWrapLogo2.jpg);
+    background-size: cover;
+}
+.header-list a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}

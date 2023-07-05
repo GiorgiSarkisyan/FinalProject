@@ -152,6 +152,8 @@ ul{
     color: white;
     font-family: 'PoppinsRegular';
     background-color: #525252;
+    padding: 10px;
+    text-align: center;
 }
 .wrappers-section-content-info-future{
     display: grid;
