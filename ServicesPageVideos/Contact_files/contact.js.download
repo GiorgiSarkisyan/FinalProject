@@ -1,0 +1,12 @@
+const firstName = document.getElementById("name")
+const surName = document.getElementById("surname")
+const email = document.getElementById("email")
+const number = document.getElementById("number")
+const form = document.getElementById("form")
+
+form.addEventListener('submit', (e) => {
+    if (firstName.value === '' || firstName.value === null) {
+        firstName.placeholder = "please fill this field"
+    }
+    e.preventDefault()
+})
