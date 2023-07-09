@@ -22,11 +22,9 @@ ul{
     max-width: 1280px;
     margin: 0 auto;
     min-height: 100vh;
-    /* background: url(../MainPageImages/matte-black-color-solid-background-1920x1080.png); */
+    background: url(../MainPageImages/matte-black-color-solid-background-1920x1080.png);
     position: relative;
     opacity: 90%;
-    backdrop-filter: blur(200000px);
-    background: transparent; 
 }
 /* GLOBAL HEADER */
 .hover-logo:hover{
@@ -135,6 +133,13 @@ ul{
     font-size: 17px;
     font-family: 'PoppinsBold';
 }
+.main-section-content-paragraph p{
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
+    opacity: 100%;
+    background-color: #212020;
+    padding: 10px;
+}
 .main-section-content{
     display: grid;
     grid-template-columns: 512px 512px;
@@ -189,7 +194,14 @@ ul{
     font-family: 'PoppinsBold';
     display: grid;
     gap: 20px   ;
-    grid-template-rows: 450px 300px;
+    grid-template-rows: 400px 300px;
+}
+.wrappers-info p, .wrappers-conclusion p{
+    background-color: #212020;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
+    text-align: center;
 }
 /* TEAM SECTION */
 .wrapper-team{
@@ -475,6 +487,7 @@ ul{
         flex-direction: column;
         justify-content: center;
         text-align: center;
+        gap: 50px   ;
     }
     .wrappers-info{
         justify-content: center;
@@ -487,11 +500,12 @@ ul{
     .wrappers-conclusion p{
         justify-content: center;
         width: 768px;
-        min-height: 250px;
+        min-height: 200px;
+        margin-bottom: 30px;
     }
     .wrappers-info p{
         width: 768px;
-        min-height: 350px;
+        min-height: 260px;
     }
     .wrappers-video{
         display: flex;
@@ -530,7 +544,7 @@ ul{
     }
     .main-section-content{
         grid-template-columns: none;
-        grid-template-rows: 300px 512px;
+        grid-template-rows: 330px 512px;
         justify-content: center;
         gap: 30px   ;
     }
@@ -571,9 +585,9 @@ ul{
     }
     .main-section-content{
         grid-template-columns: none;
-        grid-template-rows: 500px 512px;
+        grid-template-rows: 590px 512px;
         justify-content: center;
-        gap: 30px   ;
+        gap:20px;
     }
     .main-section-button{
         height: 100px;
@@ -635,7 +649,7 @@ ul{
     }
     .main-section-content{
         grid-template-columns: none;
-        grid-template-rows: 700px 512px;
+        grid-template-rows: 580px 512px;
         justify-content: center;
         gap: 30px   ;
     }
@@ -654,6 +668,7 @@ ul{
     .main-section-content-paragraph {
         display: flex;
         justify-content: center;
+        font-size: 14px;
     }
     .main-section-content-paragraph p{
         width: 320px;
@@ -678,12 +693,14 @@ ul{
     .wrappers-info p{
         width: 320px;
         min-height: 350px;
+        font-size: 13px;
     }
     .wrappers-conclusion p{
         justify-content: center;
         width: 320px;
         min-height: 250px;
         margin-bottom: 30px;
+        font-size: 13px;
     }
     .conclusion p{
         font-size: 20px;

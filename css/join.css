@@ -186,8 +186,11 @@ ul{
     color: white;
     font-size: 20px;
 }
-.section-global-text-side:nth-child(3){
-    text-align: right;
+.section-global-text p{
+    padding: 10px;
+    background-color: #212020;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);  
 }
 /* join conclusion section */
 .join-conclusion-section{
