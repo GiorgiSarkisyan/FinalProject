@@ -1,11 +1,11 @@
-const firstName = document.getElementById("name")
-const surName = document.getElementById("surname")
-const email = document.getElementById("email")
-const number = document.getElementById("number")
-const form = document.getElementById("form")
-const formSection = document.getElementById("formSection")
-const filledFormTitle = document.getElementById("filledFormTitle")
-const filledFormSection = document.getElementById("filledFormSection")
+const firstName = document.getElementById("name");
+const surName = document.getElementById("surname");
+const email = document.getElementById("email");
+const number = document.getElementById("number");
+const form = document.getElementById("form");
+const formSection = document.getElementById("formSection");
+const filledFormTitle = document.getElementById("filledFormTitle");
+const filledFormSection = document.getElementById("filledFormSection");
 
 let firstNameValue;
 
@@ -28,7 +28,7 @@ form.addEventListener('submit', (e) => {
     }
     else{
         formSection.style.display = "none"
-        filledFormSection.style.display = "flex"
+        filledFormSection.style.display = "block"
         firstNameValue = firstName.value;
         filledFormTitle.textContent = `Thank You For Choosing us, ${firstNameValue}!`
     }
