@@ -14,15 +14,15 @@ form.addEventListener('submit', (e) => {
         firstName.style.background = "Gray"
         firstName.placeholder = "Please Fill This Field"
     }
-    if (surName.value === '' || surName.value === null) {
+    else if (surName.value === '' || surName.value === null) {
         surName.style.background = "Gray"
         surName.placeholder = "Please Fill This Field"
     }
-    if (email.value === '' || email.value === null) {
+    else if (email.value === '' || email.value === null) {
         email.style.background = "Gray"
         email.placeholder = "Please Fill This Field"
     }
-    if (number.value === '' || surName.value === null) {
+    else if (number.value === '' || surName.value === null) {
         number.style.background = "Gray"
         number.placeholder = "Please Fill This Field"
     }
