@@ -408,10 +408,6 @@ ul{
         grid-template-rows: minmax(200px, auto) minmax(500px, auto);
         justify-content: center;
     }
-    .wrappers-section-content-future-img{
-        display: flex;
-        justify-content: center;
-    }
     .wrappers-section-content-future-img img{
         width: 320px ;
         height: 200px   ;

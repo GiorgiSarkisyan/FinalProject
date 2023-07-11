@@ -22,9 +22,17 @@ form.addEventListener('submit', (e) => {
         email.style.background = "Gray"
         email.placeholder = "Please Fill This Field"
     }
+    else if(!email.value.match(/^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)){
+        email.style.background = "Gray"
+        email.placeholder = "Please Enter A Valid Email"
+    }
     else if (number.value === '' || surName.value === null) {
         number.style.background = "Gray"
         number.placeholder = "Please Fill This Field"
+    }
+    else if (number.value.length !== 9 ) {
+        number.style.background = "Gray"
+        number.placeholder = "Number Must Contain 9 Units"
     }
     else{
         formSection.style.display = "none"

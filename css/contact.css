@@ -442,6 +442,7 @@ ul{
         transform: translateY(-8px) rotate(-45deg);
     }
 }
+/* Global Media */
 @media (max-width: 768px) {
     .global-footer-grid{
         grid-template-columns: none;

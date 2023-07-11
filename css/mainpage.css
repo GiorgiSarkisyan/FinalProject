@@ -471,9 +471,6 @@ ul{
         gap: 0px;
         max-width: 1024px;
     }
-    .container{
-        max-width: 1024px;
-    }
     .main-showcase-section{
         display: flex;
     }
@@ -692,7 +689,6 @@ ul{
     }
     .wrappers-info p{
         width: 320px;
-        min-height: 350px;
         font-size: 13px;
     }
     .wrappers-conclusion p{
